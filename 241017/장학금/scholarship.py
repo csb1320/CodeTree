@@ -8,4 +8,4 @@ if mid_te >= 90:
     else:
         print(0)
 else:
-    print
+    print(0)
