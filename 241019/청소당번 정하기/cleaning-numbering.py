@@ -4,7 +4,7 @@ class_cnt = 0
 pass_cnt = 0
 toilet_cnt = 0
 
-for i in range(1, n):
+for i in range(1, n + 1):
     if i % 2 == 0:
         if i % 3 == 0:
             if i % 12 == 0:
