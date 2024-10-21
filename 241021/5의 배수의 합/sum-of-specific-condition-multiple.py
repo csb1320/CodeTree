@@ -2,9 +2,9 @@ a, b = map(int, input().split())
 
 if a < b:
     a = a
-    b = b
+    b = b + 1
 else:
-    temp = a
+    temp = a + 1
     a = b
     b = temp
 
