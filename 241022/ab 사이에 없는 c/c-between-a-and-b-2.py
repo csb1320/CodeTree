@@ -1,11 +1,11 @@
 a, b, c = map(int, input().split())
-satisfied = False
+satisfied = True
 
 for i in range(a, b + 1):
-    if c % i == 0:
-        satisfied = True
+    if i % c != 0:
+        satisfied = False
 
-if satisfied == True:
+if satisfied == False:
     print("YES")
 else:
     print("NO")
