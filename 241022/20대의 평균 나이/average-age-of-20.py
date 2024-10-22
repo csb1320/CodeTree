@@ -12,4 +12,5 @@ while True:
         break
         
     
-print(f"{(sum_age / cnt):.2f}")
+if cnt > 0:
+    print(f"{(sum_age / cnt):.2f}")
