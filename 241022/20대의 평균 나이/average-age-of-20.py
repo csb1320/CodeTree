@@ -11,8 +11,4 @@ while True:
     else:
         break
         
-    
-if cnt > 0:
-    print(f"{(sum_age / cnt):.2f}")
-else:
-    print("No valid input received")
+print(f"{(sum_age / cnt):.2f}")
