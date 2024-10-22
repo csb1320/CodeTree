@@ -6,7 +6,7 @@ for i in range(5):
     if i % 3 != 0:
         satisfied == False
 
-if satisfied == False:
-    print("0")
-else:
+if satisfied == True:
     print("1")
+else:
+    print("0")
