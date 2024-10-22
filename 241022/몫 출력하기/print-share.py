@@ -1,11 +1,16 @@
 cnt = 0
 
 while True:
-    n = int(input())
+    try:
+        n = int(input())
+    except EOFError:
+        break
+    
     if n % 2 == 1:
         continue
     elif n % 2 == 0:
         cnt += 1
         print(n // 2)
-        if cnt > 3:
-            break
+    
+    if cnt > 3:
+        break
