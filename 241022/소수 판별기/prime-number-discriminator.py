@@ -1,5 +1,5 @@
 n = int(input())
-satisfied = False
+satisfied = True
 
 for i in range(2, 1001):
     if n % i != 0:
