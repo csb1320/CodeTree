@@ -6,7 +6,7 @@ for i in range(2, 1001):
         satisfied = False
 
 
-if satisfied == False: 
-    print("P")
-else:
+if satisfied == True: 
     print("C")
+else:
+    print("P")
