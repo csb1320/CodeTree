@@ -3,10 +3,10 @@ satisfied = True
 
 for i in range(2, 1001):
     if n % i != 0:
-        satisfied = True
+        satisfied = False
 
 
-if satisfied == True: 
+if satisfied == False: 
     print("P")
 else:
     print("C")
