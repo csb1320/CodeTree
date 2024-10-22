@@ -14,3 +14,5 @@ while True:
     
 if cnt > 0:
     print(f"{(sum_age / cnt):.2f}")
+else:
+    print("No valid input received")
