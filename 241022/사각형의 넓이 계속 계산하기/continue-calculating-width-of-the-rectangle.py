@@ -4,8 +4,7 @@ while True:
     b = int(arr[1])
     c = str(arr[2])
 
-    if c == 'C':
-        print(a * b)
-        break
-    
     print(a * b)
+
+    if c == 'C':
+        break
